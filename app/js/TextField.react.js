@@ -1,9 +1,9 @@
 'use strict'
 
-var React = require('react');
-var UUID = require('uuid');
+import React from 'react';
+import UUID from 'uuid';
 
-var TextField = React.createClass({
+let TextField = React.createClass({
 
   getInitialState: function() {
     this.id = UUID.v4();
@@ -29,4 +29,3 @@ var TextField = React.createClass({
 });
 
 module.exports = TextField;
-

@@ -19,7 +19,8 @@
     "uuid": "^2.0.2"
   },
   "devDependencies": {
-    "babel-preset-react": "^6.3.13",
+    "babel-preset-es2015": "^6.14.0",
+    "babel-preset-react": "^6.11.1",
     "babelify": "^7.2.0",
     "browserify": "^12.0.1",
     "gulp": "^3.9.0",
@@ -30,10 +31,8 @@
     "jquery": "^2.2.0",
     "minify": "^2.0.11",
     "react": "^15.1.0",
-    "react-decimal-field": "^0.1.1",
     "react-dom": "^15.1.0",
     "react-modal": "~1.3.0",
-    "react-numeric-field": "^0.1.1",
     "uuid": "^2.0.2"
   },
   "repository": {

@@ -19,7 +19,7 @@ gulp.task('copy-static', shell.task([
 );
 
 gulp.task('react', shell.task([
-    'browserify -t [ babelify --presets [ react ] ] app/js/app.js -o dist/js/bundle.js'
+    'browserify -t [ babelify --presets [ es2015 react ] ] app/js/app.js -o dist/js/bundle.js'
   ])
 );
 
