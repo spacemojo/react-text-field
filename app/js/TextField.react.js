@@ -20,7 +20,7 @@ let TextField = React.createClass({
     return (
       <div>
         <label htmlFor={this.id}>{this.props.name}</label>
-        <input style={{color: "#000000"}} type="text" className="u-full-width" placeholder={this.props.name} id={this.id} defaultValue={this.currentValue} onChange={this.onChange} />
+        <input style={{color: "#000000"}} type="text" className="u-full-width" placeholder={this.props.name} id={this.id} value={this.currentValue} onChange={this.onChange} />
       </div>
     )
 

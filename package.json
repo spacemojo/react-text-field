@@ -1,6 +1,6 @@
 {
   "name": "react-text-field",
-  "version": "0.0.1",
+  "version": "0.2.0",
   "description": "React component that represents a text input field",
   "main": "index.js",
   "scripts": {
@@ -37,7 +37,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://bitbucket.org/standardstate/text-field.git"
+    "url": "git+https://github.com/spacemojo/react-text-field.git"
   },
-  "homepage": "https://bitbucket.org/standardstate/text-field#readme"
+  "homepage": "https://github.com/spacemojo/react-text-field#readme"
 }
