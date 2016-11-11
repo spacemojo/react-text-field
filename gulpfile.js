@@ -29,7 +29,7 @@ gulp.task('default', shell.task([
 );
 
 gulp.task('generate-final-index', shell.task([
-    'jsx app/js .', 'rm Sample.react.js', 'rm app.js', 'mv NumericField.react.js index.js'
+    'jsx app/js .', 'rm Sample.react.js', 'rm app.js', 'mv TextField.react.js index.js'
   ])
 );
 
