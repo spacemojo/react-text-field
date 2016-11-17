@@ -1,6 +1,6 @@
 {
   "name": "react-text-field",
-  "version": "0.3.3",
+  "version": "0.3.5",
   "description": "React component that represents a text input field",
   "main": "index.js",
   "scripts": {
